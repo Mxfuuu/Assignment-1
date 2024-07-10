@@ -109,18 +109,17 @@ nav ul li {
     margin-bottom: 32px;
 }
 
-#hero .contact a {
+#hero .contact-btn a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.contact-btn {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
+}
+
+.contact-btn {
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -128,7 +127,7 @@ nav ul li {
     margin-bottom: 44px;
 }
 
-/* main styles */
+/* main/motivation styles */
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -176,3 +175,22 @@ main {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
+
+/* main/inspiration styles */
+.inspiration {
+    margin: 88px auto 24px
+}
+
+.embed-container {
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
+}
+
+.inspiration .embed-container iframe {
+    border-radius: 16px;
+}
+
+/* main/target styles */
