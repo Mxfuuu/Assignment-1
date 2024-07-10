@@ -160,8 +160,12 @@ main {
     text-align: left;
 }
 
-.learn-more-btn,
-.learn-more-btn a {
+.motivation .card-container .learn-more-btn a, .motivation .card-container .learn-more-btn a:visited{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
+.learn-more-btn {
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
@@ -174,11 +178,6 @@ main {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     cursor: pointer;
-}
-
-.motivation .card-container .learn-more-btn a {
-    text-decoration: none;
-    color: rgb(13, 19, 33);
 }
 
 /* main/inspiration styles */
