@@ -42,7 +42,7 @@
     opacity: 0.7;
 }
 
-/* header styles */
+/* header and navigation Styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,7 @@ nav ul li {
     cursor: pointer;
 }
 
-/* hero/banner styles */
+/* hero styles */
 #hero {
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
@@ -93,7 +93,6 @@ nav ul li {
 }
 
 .hero-heading {
-    /* max-width: 998px; */
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 48px;
@@ -161,8 +160,12 @@ main {
     text-align: left;
 }
 
-.learn-more-btn {
+.motivation .card-container .learn-more-btn a{
+    text-decoration: none;
     color: rgb(13, 19, 33);
+}
+
+.learn-more-btn {
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
