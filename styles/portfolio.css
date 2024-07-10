@@ -174,6 +174,7 @@ main {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    cursor: pointer;
 }
 
 /* main/inspiration styles */
@@ -194,3 +195,112 @@ main {
 }
 
 /* main/target styles */
+.target {
+    margin: 149px auto 24px;
+}
+
+.language-container {
+    margin-top: 48px;
+    display: flex;
+    flex: row;
+    gap: 24px;
+}
+
+.language-card {
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.html-card {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-title {
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+}
+
+.learn-more {
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* main/feedback styles */
+.feedback {
+    margin: 47px auto 80px;
+    height: 313px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-white {
+    margin: 16px 0px;
+    padding-top: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-description {
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.input-container {
+    padding: 24px 0px;
+}
+
+.feedback .input-container input[type=text] {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 548px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.feedback .input-container input[type=submit] {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 120px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* footer styles */
